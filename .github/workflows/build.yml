@@ -23,9 +23,9 @@ name: Build
 on:
   workflow_dispatch:
     inputs:
-      serverUrl: https://remote.southcitycomputer.com
-      description: 'Server URL'     
-      required: true
+      serverUrl: 
+        description: 'https://remote.southcitycomputer.com'     
+        required: true
       rid:
         description: 'Server Runtime Identifier'     
         required: false
